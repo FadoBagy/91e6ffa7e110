@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="RocketM предлага цялостни услуги за дигитален маркетинг, включително SEO, PPC и маркетинг в социалните мрежи. Развийте бизнеса си с нашия екип от експерти.">
+    <title>Bling Technology</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+    <meta property="og:title" content="RocketM - Експертни Дигитални Маркетинг Услуги">
+    <meta property="og:description"
+        content="RocketM предлага цялостни услуги за дигитален маркетинг, включително SEO, PPC и маркетинг в социалните мрежи.">
+    <meta property="og:image" content="https://rocketm.co/img/rocketm-logo.png">
+    <meta property="og:url" content="https://rocketm.co">
+    <meta property="og:type" content="website">
+
+    <link rel="preload" href="./styles/sections/hero.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="./img/astronaut.webp" as="image" type="image/webp">
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/sections/header.css" />
+    <link rel="stylesheet" href="./styles/sections/hero.css" />
+    <link rel="stylesheet" href="./styles/sections/about.css" />
+    <link rel="stylesheet" href="./styles/sections/services.css" />
+    <link rel="stylesheet" href="./styles/sections/why-choose-us.css" />
+    <link rel="stylesheet" href="./styles/sections/team.css" />
+    <link rel="stylesheet" href="./styles/sections/contact.css" />
+    <link rel="stylesheet" href="./styles/sections/footer.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#home" class="logo">
+                <img src="./img/33bqlo.svg" width="240" alt="RocketM - Експертни Дигитални Маркетинг Услуги">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <div class="wrapper">
+                    <a href="#home" class="logo"><img src="./img/33bqlo2.svg" width="150" alt="RocketM Logo Small"></a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#home" class="navbar-link" data-nav-link="home">Начало</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="navbar-link" data-nav-link="about">Ползи</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="navbar-link" data-nav-link="services">Услуги</a>
+                    </li>
+                    <li>
+                        <a href="#why-choose-us" class="navbar-link" data-nav-link="why-choose-us">Защо
+                            нас</a>
+                    </li>
+                    <li>
+                        <a href="#team" class="navbar-link" data-nav-link="team">Екип</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="navbar-link" data-nav-link="contact">Контакти</a>
+                    </li>
+                    <li class="portfolio-parent">
+                        <a href="" class="navbar-link">
+                            Портфолио
+                            <img src="./img/elements/icons/nav-arrow.webp" alt="Dropdown arrow" class="dropdown-arrow">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">Уеб сайтове</a></li>
+                            <li><a href="">Онлайн Магазини</a></li>
+                            <li><a href="">Мобилни приложения</a></li>
+                            <li><a href="">Дигитален маркетинг</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <a href="#contact" class="btn-outline">Свържи се с нас</a>
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section hero" id="home" aria-label="hero">
+            <div class="astronaut-container" data-aos="fade-left" data-aos-delay="300">
+                <img src="./img/astronaut.webp" alt="Astronaut" class="astronaut-element" id="astronautElement">
+            </div>
+            <div class="blob" data-aos="fade-right" data-aos-delay="50">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#f2f2f2;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#e4e4e4;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <path fill="url(#gradient1)" transform="translate(100 100)">
+                        <animate attributeName="d" dur="4s" repeatCount="indefinite" values="
+                            M35.8,-57.3C47.1,-48.4,57.5,-39.7,56,-29.5C54.4,-19.3,41,-7.7,39.3,5.8C37.6,19.3,47.6,34.6,46.7,46.5C45.8,58.4,34,66.9,21.3,68.9C8.7,70.9,-4.8,66.4,-20,63.9C-35.3,61.4,-52.3,60.7,-54.2,51.1C-56,41.5,-42.7,22.9,-38.2,9.6C-33.7,-3.6,-37.9,-11.4,-40.3,-23.4C-42.7,-35.4,-43.1,-51.6,-36.1,-62.4C-29,-73.3,-14.5,-78.8,-1.1,-77C12.2,-75.2,24.5,-66.1,35.8,-57.3Z;
+
+                            M35.8,-57.3C47.1,-48.8,58.5,-40,56,-30.5C54.4,-20,41,-7.7,39.9,1.8C37.6,10.3,47.6,40,46.7,46.5C45.8,60.4,34,66.9,21.3,68.9C8.7,70.9,-4.8,66.4,-20,63.9C-35.3,61.4,-52.3,60.7,-54.2,51.1C-56,41.5,-42.7,22.9,-38.2,9.6C-33.7,-3.6,-37.9,-11.4,-40.3,-23.4C-42.7,-35.4,-43.1,-51.6,-36.1,-62.4C-29,-74.3,-14.5,-79.8,-1.1,-78C19.2,-75.9,24.5,-66.1,35.8,-57.3Z;
+                            
+                            M35.8,-57.3C47.1,-48.4,57.5,-39.7,56,-29.5C54.4,-19.3,41,-7.7,39.3,5.8C37.6,19.3,47.6,34.6,46.7,46.5C45.8,58.4,34,66.9,21.3,68.9C8.7,70.9,-4.8,66.4,-20,63.9C-35.3,61.4,-52.3,60.7,-54.2,51.1C-56,41.5,-42.7,22.9,-38.2,9.6C-33.7,-3.6,-37.9,-11.4,-40.3,-23.4C-42.7,-35.4,-43.1,-51.6,-36.1,-62.4C-29,-73.3,-14.5,-78.8,-1.1,-77C12.2,-75.2,24.5,-66.1,35.8,-57.3Z;
+                            ">
+                        </animate>
+                    </path>
+                </svg>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <p class="hero-subtitle has-before" data-aos="fade-right" data-aos-delay="100">
+                        Издигнете бизнеса си до нови висоти
+                    </p>
+                    <h1 class="h1 hero-title" data-aos="fade-right" data-aos-delay="150">
+                        Повече продажби с по-малко усилия
+                    </h1>
+                    <p class="hero-text" data-aos="fade-right" data-aos-delay="200">
+                        Ние ви помагаме да изградите успешна онлайн стратегия за да достиганете до вашата целева
+                        аудитория и да увеличите значително продажбите си
+                    </p>
+                    <div class="btn-group" data-aos="fade-right" data-aos-delay="300">
+                        <a id="hero-cta" class="btn btn-primary hero-cta" data-action="hero-cta-click">
+                            <img src="./img/rocket.webp" alt="Rocket">
+                            <p>Научи повече</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer layer-bott-black" data-aos="fade-up" data-aos-delay="300"></div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-content">
+                <div class="about-images">
+                    <img src="./img/elements/blob-border.webp" class="about-images-blob" alt="Space blob"
+                        loading="lazy">
+                    <div class="about-planet-container" data-aos="fade-right" data-aos-delay="100">
+                        <img src="./img/elements/planets/planet_1.png" id="planet_1" class="about-planet" alt="Planet1"
+                            loading="lazy">
+                    </div>
+                    <div class="about-planet-container" data-aos="fade-right" data-aos-delay="100">
+                        <img src="./img/elements/planets/planet_2.png" id="planet_2" class="about-planet" alt="Planet2"
+                            loading="lazy">
+                    </div>
+                    <div class="about-planet-container" data-aos="fade-right" data-aos-delay="250">
+                        <img src="./img/elements/planets/planet_3.png" id="planet_3" class="about-planet" alt="Planet3"
+                            loading="lazy">
+                    </div>
+                    <div class="about-planet-container" data-aos="fade-right" data-aos-delay="150">
+                        <img src="./img/elements/planets/planet_4.png" id="planet_4" class="about-planet" alt="Planet4"
+                            loading="lazy">
+                    </div>
+                    <div class="about-planet-container" data-aos="fade-right" data-aos-delay="150">
+                        <img src="./img/elements/planets/planet_5.png" id="planet_5" class="about-planet" alt="Planet5"
+                            loading="lazy">
+                    </div>
+                    <div class="about-planet-container" data-aos="fade-right" data-aos-delay="200">
+                        <img src="./img/elements/planets/planet_6.png" id="planet_6" class="about-planet" alt="Planet6"
+                            loading="lazy">
+                    </div>
+                </div>
+                <div class="about-text-section">
+                    <div>
+                        <h2 class="about-headline" data-aos="fade-up" data-aos-delay="50">
+                            Достигнете нови висоти
+                        </h2>
+                        <h3 class="about-subheadline" data-aos="fade-up" data-aos-delay="100">
+                            Персонализирани решения, изключителни резултати
+                        </h3>
+                    </div>
+                    <div class="about-text-wrapper" data-aos="fade-up" data-aos-delay="200">
+                        <p class="about-text">
+                            В нашата агенция използваме дългогодишен опит и експертиза, затова нашата мисия е ясна: да
+                            помагаме на
+                            малки и средни бизнеси да
+                            постигнат мечтаните цели за продажби. Ние се ангажираме да предоставяме резултати
+                            - без значение какво ни коства.
+                        </p>
+                        <p class="about-text">
+                            Нашият подход съчетава бързо и качествено изпълнение на
+                            услугите,
+                            което гарантира, че ще получите висококачествена работа бързо и ефективно. Никога няма да
+                            останете на тъмно, тъй като ние поддържаме 24/7 комуникация, за да ви държим информирани на
+                            всяка стъпка от пътя.
+                        </p>
+                        <p class="about-text">
+                            Ако вашите очаквания и резултати не съвпадат, имате свободата да поискате пълна ревизия без
+                            допълнителни разходи или да изберете 100% възстановяване на сумата – без въпроси. Нашият
+                            приоритет е вашият успех и ние сме посветени да го постигнем.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer layer-bott-white"></div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 data-aos="fade-up" data-aos-delay="100">
+                Услугите, които предлагаме
+            </h2>
+            <div class="filter-btns" data-aos="fade-up" data-aos-delay="150">
+                <button class="filter-btn active" data-filter="all">
+                    Всички
+                </button>
+                <button class="filter-btn" data-filter="development">
+                    Изработка
+                </button>
+                <button class="filter-btn" data-filter="branding">
+                    Брандинг и Дизайн
+                </button>
+                <button class="filter-btn" data-filter="marketing">
+                    Дигитален Маркетинг и SEO
+                </button>
+            </div>
+
+            <div class="services-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-item" data-category="development" data-title="Изработка на сайт">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="./img/elements/icons/services/web-dev-icon-small.png" alt="Изработка на сайт">
+                            <h3>
+                                Изработка на сайт
+                            </h3>
+                            <button class="flip-btn">
+                                <img src="./img/elements/icons/flip-icon.png" alt="Flip button">
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <h3>
+                                Изработка на сайт
+                            </h3>
+                            <p>
+                                TODO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-category="development" data-title="Изработка на онлайн магазин">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="./img/elements/icons/services/online-store-icon.png"
+                                alt="Изработка на онлайн магазин">
+                            <h3>
+                                Изработка на онлайн магазин
+                            </h3>
+                            <button class="flip-btn">
+                                <img src="./img/elements/icons/flip-icon.png" alt="Flip button">
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <h3>
+                                Изработка на онлайн магазин
+                            </h3>
+                            <p>
+                                TODO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-category="development" data-title="Изработка на мобилни приложения">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="./img/elements/icons/services/mobile-development-icon-small.png"
+                                alt="Изработка на мобилни приложения">
+                            <h3>
+                                Изработка на мобилни приложения
+                            </h3>
+                            <button class="flip-btn">
+                                <img src="./img/elements/icons/flip-icon.png" alt="Flip button">
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <h3>
+                                Изработка на мобилни приложения
+                            </h3>
+                            <p>
+                                TODO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-category="branding" data-title="Брандинг и Дизайн">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="./img/elements/icons/services/branding-icon-small.png" alt="Брандинг и Дизайн">
+                            <h3>
+                                Брандинг и Дизайн
+                            </h3>
+                            <button class="flip-btn">
+                                <img src="./img/elements/icons/flip-icon.png" alt="Flip button">
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <h3>
+                                Брандинг и Дизайн
+                            </h3>
+                            <p>
+                                TODO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-category="marketing" data-title="Дигитален Маркетинг и SEO">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="./img/elements/icons/services/smm-icon.png" alt="Дигитален Маркетинг и SEO">
+                            <h3>
+                                Дигитален Маркетинг и SEO
+                            </h3>
+                            <button class="flip-btn">
+                                <img src="./img/elements/icons/flip-icon.png" alt="Flip button">
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <h3>
+                                Дигитален Маркетинг и SEO
+                            </h3>
+                            <p>
+                                TODO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-category="development" data-title="Уеб софтуер за бизнеса">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="./img/elements/icons/services/web-software-icon.png" alt="Уеб софтуер за бизнеса">
+                            <h3>
+                                Уеб софтуер за бизнеса
+                            </h3>
+                            <button class="flip-btn">
+                                <img src="./img/elements/icons/flip-icon.png" alt="Flip button">
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <h3>
+                                Уеб софтуер за бизнеса
+                            </h3>
+                            <p>
+                                TODO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-cta-container" data-aos="fade-up" data-aos-delay="200">
+                <a href="#contact" class="services-cta-btn btn-primary" data-action="services-cta-click">
+                    Свържи се
+                </a>
+            </div>
+        </section>
+
+        <section class="qna-section" id="why-choose-us">
+            <div class="spacer layer-top-white"></div>
+            <div class="why-choose-us-container">
+                <h2 data-aos="fade-in" data-aos-delay="150">
+                    Защо нас?
+                </h2>
+                <div class="qna" data-aos="fade-in" data-aos-delay="200">
+                    <div class="floating-icons" data-aos="fade-in" data-aos-delay="250">
+                        <img src="./img/elements/icons/satellite-icon.png" alt="Satellite"
+                            class="floating-icon satellite-icon">
+                        <img src="./img/elements/planets/planet_7.png" alt="Planet" class="floating-icon planet-icon">
+                        <img src="./img/elements/icons/ufo-icon.png" alt="UFO" class="floating-icon ufo-icon">
+                        <img src="./img/rocket.webp" alt="Rocket" class="floating-icon rocket-icon">
+                        <img src="./img/elements/icons/satellite-icon.png" alt="Satellite"
+                            class="floating-icon satellite-icon-2">
+                        <img src="./img/elements/planets/planet_7.png" alt="Planet" class="floating-icon planet-icon-2">
+                    </div>
+                    <div class="user-msg">
+                        <p><strong>Клиент:</strong>
+                            Защо да избера вашите услуги?
+                        </p>
+                    </div>
+                    <div class="agent-msg">
+                        <p><strong>Експерт:</strong>
+                            <span class="typing-dots">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </span>
+                            <span class="hidden-text"
+                                data-text="Нашият приоритет е да предоставим индивидуализиран подход, съобразен специално с вашите нужди, като използваме нашия опит в алгоритми и ефективни стратегии."></span>
+                            <button class="reveal-btn">Вижте Отговора</button>
+                        </p>
+                    </div>
+
+                    <div class="user-msg">
+                        <p><strong>Клиент:</strong>
+                            Какво отличава вашата компания?
+                        </p>
+                    </div>
+                    <div class="agent-msg">
+                        <p><strong>Експерт:</strong>
+                            <span class="typing-dots">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </span>
+                            <span class="hidden-text"
+                                data-text="За разлика от повечето маркетингови агенции, които следват шаблони, ние създаваме уникални стратегии за всеки клиент, гарантирайки, че ще извлечете максимума от вашата инвестиция."></span>
+                            <button class="reveal-btn">Вижте Отговора</button>
+                        </p>
+                    </div>
+
+                    <div class="user-msg">
+                        <p><strong>Клиент:</strong>
+                            С какви фирми работите?
+                        </p>
+                    </div>
+                    <div class="agent-msg">
+                        <p><strong>Експерт:</strong>
+                            <span class="typing-dots">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </span>
+                            <span class="hidden-text"
+                                data-text="Ние работим с разнообразен набор от бизнеси, от стартиращи до утвърдени предприятия, в различни индустрии. Нашите стратегии са многостранни и адаптивни към различни бизнес модели."></span>
+                            <button class="reveal-btn">Вижте Отговора</button>
+                        </p>
+                    </div>
+
+                    <div class="user-msg">
+                        <p><strong>Клиент:</strong>
+                            Как подхождате към маркетинга по различен начин?
+                        </p>
+                    </div>
+                    <div class="agent-msg">
+                        <p><strong>Експерт:</strong>
+                            <span class="typing-dots">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </span>
+                            <span class="hidden-text"
+                                data-text="Нашият приоритет е да подходим индивидуално към всеки клиент, предлагайки решения, които са уникално изработени, за да отговорят на вашите специфични нужди. Ние се фокусираме върху разбирането на уникалните предизвикателства на вашия бизнес и предоставянето на стратегии, които водят до реални резултати."></span>
+                            <button class="reveal-btn">Вижте Отговора</button>
+                        </p>
+                    </div>
+
+                    <div class="user-msg">
+                        <p><strong>Клиент:</strong>
+                            Колко бързо мога да видя резултатите?
+                        </p>
+                    </div>
+                    <div class="agent-msg">
+                        <p><strong>Експерт:</strong>
+                            <span class="typing-dots">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </span>
+                            <span class="hidden-text"
+                                data-text="Докато всеки бизнес е уникален, положителни промени обикновено се очакват през първите няколко месеца. Ние се фокусираме върху устойчив растеж, който осигурява дългосрочен успех."></span>
+                            <button class="reveal-btn">Вижте Отговора</button>
+                        </p>
+                    </div>
+
+                    <div class="user-msg">
+                        <p><strong>Клиент:</strong>
+                            Ами ако имам ограничен бюджет?
+                        </p>
+                    </div>
+                    <div class="agent-msg">
+                        <p><strong>Експерт:</strong>
+                            <span class="typing-dots">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </span>
+                            <span class="hidden-text"
+                                data-text="Разбираме, че бюджетните ограничения могат да бъдат проблем и предлагаме гъвкави решения, за да отговорим на вашите нужди. Нашата цел е да увеличим максимално вашата възвръщаемост на инвестицията, независимо от размера на вашия бюджет."></span>
+                            <button class="reveal-btn">Вижте Отговора</button>
+                        </p>
+                    </div>
+
+                    <div class="user-msg">
+                        <p><strong>Клиент:</strong>
+                            Как измервате успеха?
+                        </p>
+                    </div>
+                    <div class="agent-msg">
+                        <p><strong>Експерт:</strong>
+                            <span class="typing-dots">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </span>
+                            <span class="hidden-text"
+                                data-text="Успехът се измерва с въздействието върху вашите бизнес цели. Независимо дали става въпрос за увеличен трафик, по-високи проценти на реализация или подобрено разпознаване на марката. Предоставяме прозрачни отчети, за да можете да видите как точно работят нашите стратегии."></span>
+                            <button class="reveal-btn">Вижте Отговора</button>
+                        </p>
+                    </div>
+
+                    <div class="user-msg">
+                        <p><strong>Клиент:</strong>
+                            Как мога да съм сигурен, че това не са просто празни приказки?
+                        </p>
+                    </div>
+                    <div class="agent-msg">
+                        <p><strong>Експерт:</strong>
+                            <span class="typing-dots">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </span>
+                            <span class="hidden-text"
+                                data-text="Знаем, че сте чували всичко това преди. Ние не сме тук, за да ви продаваме мечти, а за да предоставим реални, измерими резултати."></span>
+                            <button class="reveal-btn">Вижте Отговора</button>
+                        </p>
+                    </div>
+
+                    <div class="user-msg">
+                        <p><strong>Клиент:</strong>
+                            Как да започна?
+                        </p>
+                    </div>
+                    <div class="agent-msg">
+                        <p><strong>Експерт:</strong>
+                            <span class="typing-dots">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </span>
+                            <span class="hidden-text"
+                                data-text="Просто е! Свържете се с нас и ние ще насрочим безплатна консултация, за да обсъдим вашите нужди и как можем да ви помогнем. Нека започнем да изграждаме вашата история на успеха заедно."></span>
+                            <button class="reveal-btn">Вижте Отговора</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team" id="team">
+            <div class="spacer layer-top-black"></div>
+
+            <div class="team-header" data-aos="fade-in" data-aos-delay="150">
+                <h3>Запознайте се с нас</h3>
+                <p>Екип от професионалисти, готови да ви помогнат</p>
+            </div>
+
+            <div class="team-band">
+                <img src="./img/elements/icons/team/telescope.png" alt="Telescope" id="teamTelescope" data-aos="fade-in"
+                    data-aos-delay="150">
+                <img src="./img/elements/icons/team/planet.png" alt="Planet" id="teamPlanet" data-aos="fade-in"
+                    data-aos-delay="150">
+
+                <div class="team-cards" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-card">
+                        <img src="./img/team/emo-team-no-bg.webp" alt="Emil Team">
+                        <h4>Емил Моллов</h4>
+                        <div class="team-info-panel">
+                            <p>Creative and Marketing Director</p>
+                            <a href="mailto:emil@rocketm.co">emil@rocketm.co</a>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="./img/team/dani-team-no-bg.webp" alt="Daniel Team" style="left: -30px;">
+                        <h4>Даниел Йорданов</h4>
+                        <div class="team-info-panel">
+                            <p>Project Manager and Sales Expert</p>
+                            <a href="mailto:daniel@rocketm.co">daniel@rocketm.co</a>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="./img/team/mladen-team-no-bg.webp" alt="Mladen Team">
+                        <h4>Младен Недев</h4>
+                        <div class="team-info-panel">
+                            <p>IT Specialist</p>
+                            <a href="mailto:mladen@rocketm.co">mladen@rocketm.co</a>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="./img/team/kris-team-no-bg.webp" alt="Kristian Team">
+                        <h4>Кристиан Пашов</h4>
+                        <div class="team-info-panel">
+                            <p>Digital Specialist</p>
+                            <a href="mailto:office@rocketm.co">office@rocketm.co</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="spacer layer-top-white"></div>
+
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="contact-header">
+                    <h3>Свържете се с нас</h3>
+                    <p>Попълнете формата по-долу, за да се свържете с нас</p>
+                </div>
+
+                <div class="contact-info">
+                    <p>
+                        <a href="tel:+359877221162">+359 877 22 11 62</a>
+                    </p>
+                    <p>
+                        <a href="mailto:office@rocketm.co">office@rocketm.co</a>
+                    </p>
+                </div>
+
+                <form id="contact-form" novalidate>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Име" required />
+                        <label for="name">Име</label>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Имейл" required />
+                        <label for="email">Имейл</label>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Телефонен номер" required />
+                        <label for="phone">Телефонен номер</label>
+                        <span class="error-message" id="phone-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Съобщение" required></textarea>
+                        <label for="message">Съобщение</label>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="submit-button">Изпрати</button>
+                </form>
+            </div>
+        </section>
+
+        <footer id="footer" class="footer">
+            <div class="footer-top section">
+                <div class="container">
+                    <div class="footer-brand">
+                        <a href="#" class="logo">
+                            <img src="./img/33bqlo.svg" alt="RocketM Logo">
+                        </a>
+                        <div class="footer-text">
+                            <p>
+                                Aбонирайте се за нашия бюлетин
+                            </p>
+                            <form name="submit-to-google-sheet" action="" class="newsletter-form">
+                                <input type="email" name="email" placeholder="Вашият имейл" required
+                                    class="email-field">
+                                <button type="submit" class="form-btn">
+                                    <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <ion-icon name="location" aria-hidden="true"></ion-icon>
+                            <address class="contact-link address">
+                                ул. Александровска 6, гр. Русе
+                            </address>
+                        </li>
+                        <li class="footer-item">
+                            <ion-icon name="call" aria-hidden="true"></ion-icon>
+                            <a href="tel:+359877221162" class="contact-link allow-select">
+                                +359 877 22 11 62
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                            <a href="mailto:office@rocketm.co" class="contact-link allow-select">
+                                office@rocketm.co
+                            </a>
+                        </li>
+                        <li class="footer-item footer-social-media">
+                            <a href="https://www.facebook.com/yourprofile" target="_blank" class="social-icon">
+                                <img src="./img/elements/icons/footer/facebook-icon.png" alt="Facebook"
+                                    class="social-footer-icon default-icon">
+                                <img src="./img/elements/icons/footer/facebook-icon-active.png" alt="Facebook"
+                                    class="social-footer-icon active-icon">
+                            </a>
+                            <a href="https://www.instagram.com/rocketm.agency" target="_blank" class="social-icon">
+                                <img src="./img/elements/icons/footer/instagram-icon.png" alt="Instagram"
+                                    class="social-footer-icon default-icon">
+                                <img src="./img/elements/icons/footer/instagram-icon-active.png" alt="Instagram"
+                                    class="social-footer-icon active-icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="copyright">
+                    © 2024 Bling. Всички права запазени. <a href="./terms-and-conditions.html">Общи условия на
+                        сайта.</a> <a href="./privacy-policy.html">Политика за поверителност.</a>
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.js"></script>
+    <script type="module" src="./src/script.js"></script>
+    <script src="./src/aos.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
