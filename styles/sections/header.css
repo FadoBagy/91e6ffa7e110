@@ -89,13 +89,13 @@
 .navbar-link {
     color: #f0f8ff !important;
     padding-block: 10px;
-    border-bottom: 3px solid transparent !important;
-    border-radius: 2px;
+    border-bottom: 2px solid transparent !important;
+    border-top: 2px solid transparent !important;
     transition: var(--transition-1)
 }
 
 .navbar-link:is(:hover, :focus) {
-    border-color: #3e02fa !important;
+    border-bottom-color: #3e02fa !important;
 }
 
 .overlay {
@@ -122,7 +122,7 @@
 }
 
 .portfolio-parent.active>.navbar-link {
-    border-color: #3e02fa !important;
+    border-bottom-color: #3e02fa !important;
 }
 
 .dropdown-menu {
@@ -144,8 +144,7 @@
 .dropdown-menu li a {
     width: fit-content;
     color: #f0f8ff;
-    border-bottom: 3px solid transparent !important;
-    border-radius: 2px;
+    border-bottom: 2px solid transparent !important;
     margin-bottom: 5px;
     transition: var(--transition-1);
 }
@@ -162,7 +161,7 @@
 }
 
 .portfolio-parent>.navbar-link:hover {
-    border-color: #3e02fa !important;
+    border-bottom-color: #3e02fa !important;
 }
 
 .portfolio-parent a {
